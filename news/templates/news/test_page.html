@@ -1,0 +1,9 @@
+<body>
+  <h1>HACKER NEWS</h1>
+  {% for n in news %}
+
+  <p><a href="{{ n.url }}">{{ n.title }}</a></p>
+
+  {% endfor %}
+</body>
+
